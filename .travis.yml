@@ -1,6 +1,6 @@
 branches:
   only:
-  - master
+  - testscripts
 sudo: required
 before_install:
 - chmod +x ./build-scripts/deploy-terraform.sh
