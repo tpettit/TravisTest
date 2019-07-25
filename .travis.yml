@@ -3,9 +3,8 @@ branches:
   - testscripts
 sudo: required
 before_install:
-- chmod +x ./build-scripts/deploy-terraform.sh
-- chmod +x ./build-scripts/deploy-k8s.sh
 - chmod +x ./build-scripts/install-script.sh
+- chmod +x ./build-scripts/post-install.sh
 install:
 - "./build-scripts/install-script.sh"
 script:
