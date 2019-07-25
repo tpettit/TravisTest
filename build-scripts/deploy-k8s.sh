@@ -18,7 +18,7 @@ echo -e "${GREEN}==== Done deploying external dns ====${NC}"
 echo ''
 echo -e "${GREEN}==== Deploying apps ====${NC}"
  
-for d in ../apps/ ; do
+for d in ./apps/ ; do
     
     for f in $(find $d -name '*.yaml' -or -name '*.yml');
     do
